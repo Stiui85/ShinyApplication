@@ -1,0 +1,51 @@
+Course Project: Shiny Application and Reproducible Pitch
+========================================================
+author: Marcello Remedia
+date: 22 July 2020
+autosize: true
+
+Overview
+========================================================
+
+This was built for the course: **Developing Data Products** as part of the Coursera Data Science Specialization.
+
+You can find the shiny app here: https://stiui85.shinyapps.io/shinyapplication/
+
+And you can find the source files here: https://github.com/Stiui85/ShinyApplication
+
+Dice Drinking Game
+
+========================================================
+
+The formula to calculate the number of shots to be taken is hidden to the user to make the game more interesting.
+
+Just throw three dice and insert them in the appropriate boxes:
+- Dice 1
+- Dice 2
+- Dice 3
+
+The number of shots to take will appear in the bottom box on the right.
+
+========================================================
+
+**Example:**
+If the dice are thrown and the outcomes are:
+- Dice 1: 4
+- Dice 2: 3
+- Dice 3: 2
+
+The number of shots to be taken is 5.
+You can try these numbers on the app to make sure it works as it should.
+
+========================================================
+
+### Sidebar panel
+
+- numericInput: Value of Dice 1
+- numericInput: Value of Dice 2
+- numericInput: Value of Dice 3
+
+### Main panel
+
+- Recap of the values thrown
+- Response with number of shots to be taken

@@ -1,0 +1,10 @@
+name: shinyapplication
+title:
+username:
+account: stiui85
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2604516
+bundleId: 3425171
+url: https://stiui85.shinyapps.io/shinyapplication/
+when: 1595493274.45356
